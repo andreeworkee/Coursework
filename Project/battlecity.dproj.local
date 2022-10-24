@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022.06.12 14:20:54.000.585,=C:\Users\dariusdragich\Programs\Delphi\Projects\Unit1.pas</Transaction>
+    <Transaction>2022.06.13 18:38:22.000.100,=C:\Users\dariusdragich\Programs\Delphi\Projects\Unit1.pas</Transaction>
+    <Transaction>2022.06.13 18:38:34.000.383,C:\Users\dariusdragich\Other\Project\Unit1.dfm=C:\Users\dariusdragich\Programs\Delphi\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022.06.13 18:38:34.000.383,C:\Users\dariusdragich\Other\Project\Unit1.pas=C:\Users\dariusdragich\Programs\Delphi\Projects\Unit1.pas</Transaction>
+    <Transaction>2022.06.13 18:38:35.000.196,C:\Users\dariusdragich\Other\Project\Project1.dproj=C:\Users\dariusdragich\Programs\Delphi\Projects\Project1.dproj</Transaction>
+    <Transaction>2022.06.13 18:44:51.000.694,=C:\Users\dariusdragich\Other\Project\Unit2.pas</Transaction>
+    <Transaction>2022.06.13 18:51:17.000.061,=C:\Users\dariusdragich\Other\Project\Unit3.pas</Transaction>
+    <Transaction>2022.06.13 18:51:22.000.258,=C:\Users\dariusdragich\Other\Project\Unit4.pas</Transaction>
+    <Transaction>2022.06.14 23:28:06.000.439,C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\Project1.dproj=C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\battlecity.dproj</Transaction>
+    <Transaction>2022.06.14 23:30:15.000.030,C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\aaa.dproj=C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\battlecity.dproj</Transaction>
+    <Transaction>2022.06.14 23:30:42.000.549,C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\aaa.dproj=C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\BattleCity.dproj</Transaction>
+    <Transaction>2022.06.15 18:14:54.000.839,=C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\ABOUT.pas</Transaction>
+    <Transaction>2022.06.18 17:17:35.000.579,C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\BattleCity.dproj=C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\Project.dproj</Transaction>
+    <Transaction>2022.06.18 17:18:44.000.305,C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\Project.dproj=C:\Users\dariusdragich\Documents\Study\ОАиП\Course Work\Project\battlecity.dproj</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="ABOUT.pas"/>
+    <File Path="ABOUT.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

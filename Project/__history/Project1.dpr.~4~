@@ -1,0 +1,23 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  Unit1 in 'Unit1.pas' {Form1},
+  Unit2 in 'Unit2.pas' {Form2},
+  Unit3 in 'Unit3.pas' {Form3};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Form2 := TForm2.Create(Application);
+  Form2.Show;
+  Form2.Update;
+  while Form2.Timer1.Enabled do
+    Application.ProcessMessages;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm3, Form3);
+  Form2.Hide;
+  Form2.Free;
+  Application.Run;
+end.

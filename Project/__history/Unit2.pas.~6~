@@ -1,0 +1,35 @@
+﻿unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Timer1: TTimer;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit1;
+
+procedure TForm2.Timer1Timer(Sender: TObject);
+begin
+ Form1.Show; // показываем первую форму
+ Form2.close; // закрываем вторую форму
+end;
+
+end.

@@ -1,0 +1,74 @@
+﻿unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    procedure Label2Click(Sender: TObject);
+    procedure Label4Click(Sender: TObject);
+    procedure Label3Click(Sender: TObject);
+    procedure Label2MouseMove(Sender: TObject; Shift: TShiftState; X,
+      Y: Integer);
+    procedure Label2MouseLeave(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit3, Unit4;
+
+procedure TForm1.Label2Click(Sender: TObject);
+begin
+
+  Form3.Show;
+  Form1.Hide;
+
+end;
+
+procedure TForm1.Label2MouseLeave(Sender: TObject);
+begin
+
+  Label2.Font.Color := clwhite;
+
+end;
+
+procedure TForm1.Label2MouseMove(Sender: TObject; Shift: TShiftState; X,
+  Y: Integer);
+begin
+
+  Label2.Font.Color := clyellow;
+
+end;
+
+procedure TForm1.Label3Click(Sender: TObject);
+begin
+
+  Form4.Show;
+  Form1.Hide;
+
+end;
+
+procedure TForm1.Label4Click(Sender: TObject);
+begin
+
+  Application.Terminate;
+
+end;
+
+end.

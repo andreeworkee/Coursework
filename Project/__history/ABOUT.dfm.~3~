@@ -1,0 +1,16 @@
+object AboutBox: TAboutBox
+  Left = 200
+  Top = 108
+  BorderStyle = bsNone
+  Caption = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+  ClientHeight = 512
+  ClientWidth = 512
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Position = poScreenCenter
+  TextHeight = 13
+end
